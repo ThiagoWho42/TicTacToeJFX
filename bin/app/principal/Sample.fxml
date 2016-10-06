@@ -16,15 +16,15 @@
         <menus>
           <Menu mnemonicParsing="false" text="Jogo">
             <items>
-                  <MenuItem mnemonicParsing="false" text="Iniciar" />
-                  <MenuItem mnemonicParsing="false" text="Encerrar" />
+                  <MenuItem fx:id="menIniciar" mnemonicParsing="false" onAction="#actmenIniciar" text="Iniciar" />
+                  <MenuItem fx:id="menEncerrar" mnemonicParsing="false" onAction="#actmenEncerrar" text="Encerrar" />
                   <SeparatorMenuItem mnemonicParsing="false" />
-              <MenuItem mnemonicParsing="false" onAction="#actMenFechar" text="Fechar" />
+              <MenuItem fx:id="menFechar" mnemonicParsing="false" onAction="#actmenFechar" text="Fechar" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Ajuda">
             <items>
-              <MenuItem mnemonicParsing="false" onAction="#actMenSobre" text="Sobre" />
+              <MenuItem fx:id="menSobre" mnemonicParsing="false" onAction="#actmenSobre" text="Sobre" />
             </items>
           </Menu>
         </menus>
@@ -99,17 +99,17 @@
       <Label alignment="CENTER" layoutX="22.0" layoutY="78.0" stylesheets="@application.css" text="Jogador 1" textAlignment="CENTER" textFill="#ddd5d5" textOverrun="CENTER_ELLIPSIS" />
       <Label alignment="CENTER" layoutX="117.0" layoutY="77.0" text="Empate" textAlignment="CENTER" textFill="#ddd5d5" textOverrun="CENTER_ELLIPSIS" />
       <Label alignment="CENTER" layoutX="199.0" layoutY="77.0" text="Jogador 2" textAlignment="CENTER" textFill="#ddd5d5" textOverrun="CENTER_ELLIPSIS" />
-      <Label layoutX="50.0" layoutY="43.0" stylesheets="@application.css" text="0">
+      <Label fx:id="lblPlayer1" layoutX="50.0" layoutY="43.0" stylesheets="@application.css" text="0">
          <font>
             <Font size="12.0" />
          </font>
       </Label>
-      <Label layoutX="140.0" layoutY="44.0" stylesheets="@application.css" text="0">
+      <Label fx:id="lblEmpate" layoutX="140.0" layoutY="44.0" stylesheets="@application.css" text="0">
          <font>
             <Font size="12.0" />
          </font>
       </Label>
-      <Label layoutX="230.0" layoutY="43.0" stylesheets="@application.css" text="0">
+      <Label fx:id="lblPlayer2" layoutX="230.0" layoutY="43.0" stylesheets="@application.css" text="0">
          <font>
             <Font size="12.0" />
          </font>

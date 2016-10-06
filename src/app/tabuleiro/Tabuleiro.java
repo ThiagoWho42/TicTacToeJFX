@@ -18,6 +18,10 @@ public class Tabuleiro {
 	private int empate = 0;// Pontuação dos jogadores
 	private int jogador2 = 0;// Pontuação dos jogadores
 	private int vencedor = 0;// Recebe o valor referente a quem ganhou a partida
+	
+	public Tabuleiro(){
+		iniciaTabuleiro();
+	}
 
 	/**
 	 * Inicializa o tabuleiro com 0

@@ -12,6 +12,10 @@ public class JogadorCpu {
 	private int controlaJogada[] = new int[9]; // Controla as jogadas
 	private int max; // Número de posição do tabuleiro
 	private int rand; // Número randômico
+	
+	public JogadorCpu(){
+		iniciaCpu();
+	}
 
 	/**
 	 * Prepara o CPU para o jogo
@@ -63,6 +67,7 @@ public class JogadorCpu {
 		// Verifica se o CPU pode finalizar o jogo (Vencer)
 		verificaJogada(2, matriz);
 
+		
 		// Retornando a jogada escolhida
 		return this.rand;
 	}// Fim JogadaCPU

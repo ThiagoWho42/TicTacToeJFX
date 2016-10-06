@@ -33,6 +33,6 @@
 	-fx-font-size: 11pt;
     -fx-font-family: "Ubuntu";
     -fx-font-weight: bold;
-    -fx-text-fill: white;
+    -fx-text-fill:gray;
     -fx-opacity: 0.9;
 }
