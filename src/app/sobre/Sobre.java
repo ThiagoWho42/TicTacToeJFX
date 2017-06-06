@@ -32,7 +32,7 @@ public class Sobre
 		String TextoSobre = "\n"
 						+"_________________________________________________      \n\n"       									 
 			 			+"   Desenvolvidor por.:      Juliano Dorigão  \n"
-			 			+"                versão 0.3 Beta            \n"
+			 			+"                versão 1.0 Beta            \n"
 			 			+"_________________________________________________ \n\n";
 		
 		return TextoSobre;		

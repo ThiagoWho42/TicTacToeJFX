@@ -92,7 +92,8 @@ public class SampleController {
         dialogoInfo.setTitle("Sobre");
         dialogoInfo.setHeaderText("Tic Tac Toe");
         dialogoInfo.setContentText("Desenvolvidor por.: Juliano Dorigão \n\n"
-			 						+"Versão.: 0.3 Beta \n\n");
+			 						+"Versão.: 1.0 Beta \n\n"
+        							+"Github.: https://github.com/jdorigao/TicTacToeJFX \n\n");
         dialogoInfo.showAndWait();
 	}
 	
